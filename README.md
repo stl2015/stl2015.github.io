@@ -1,4 +1,4 @@
-# RL-Only Physics Reasoning
+# RL-based Physics Reasoning
 ## R1-Zero-Qwen3-235B
 
 R1-Zero applies reinforcement learning **directly** to a pre-trained LLM via RL. The model learns to solve university-level physics problems through trial-and-error with a correctness reward signal.
