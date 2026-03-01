@@ -1,4 +1,5 @@
-# R1-Zero-Qwen3-235B: RL-Only Physics Reasoning
+# RL-Only Physics Reasoning
+## R1-Zero-Qwen3-235B
 
 R1-Zero applies reinforcement learning **directly** to a pre-trained LLM via RL. The model learns to solve university-level physics problems through trial-and-error with a correctness reward signal.
 
@@ -11,11 +12,11 @@ R1-Zero applies reinforcement learning **directly** to a pre-trained LLM via RL.
 
 ---
 
-## Training Curves
+### Training Curves
 
 Training runs for 29 steps (1 epoch over ~450 problems). Each step samples 16 rollouts per problem across a batch of 16 problems (256 episodes total).
 
-### R1-Zero: Reward, and Correct Fraction
+#### R1-Zero: Reward, and Correct Fraction
 
 ![R1-Zero training curves](/plots/r1zero_training.png)
 
@@ -25,7 +26,7 @@ Key observations:
 
 ---
 
-## Evaluation Results
+### Evaluation Results
 
 **Test set**: 98 text-only physics problems from * Physics by Example * by W. G. Rees.
 Evaluation uses temperature=0.6, top_p=0.95, max_tokens=16384.
