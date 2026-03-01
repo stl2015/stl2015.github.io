@@ -8,7 +8,6 @@ R1-Zero applies reinforcement learning **directly** to a pre-trained LLM via RL.
 | **Method** | PPO with LoRA (rank 32), no prior SFT |
 | **Training data** | ~450 physics problems (text-only) |
 | **Test data** | 98 problems from *200 Puzzling Physics Problems* |
-| **Key hyperparameters** | lr=1e-4, group_size=16, batch=16, max_tokens=16K, KL=0.001 |
 
 ---
 
@@ -23,15 +22,13 @@ Training runs for 29 steps (1 epoch over ~450 problems). Each step samples 16 ro
 Key observations:
 - EED score and correct fraction **increase steadily** through training, with high per-batch variance due to varying problem difficulty.
 - Format compliance reaches ~100% within a few steps -- the format bonus is effective.
-- KL divergence grows to ~0.08, bounded by the KL penalty (0.001).
-- **Checkpoint 20** is selected for evaluation, balancing high EED with moderate KL.
 
 ---
 
 ## Evaluation Results
 
 **Test set**: 98 text-only physics problems from *200 Puzzling Physics Problems* (P200).
-Evaluation uses temperature=0.6, top_p=0.95, max_tokens=16384, EED threshold=70.
+Evaluation uses temperature=0.6, top_p=0.95, max_tokens=16384.
 
 | Model | Accuracy |
 |-------|----------------------------|
