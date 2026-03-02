@@ -31,7 +31,7 @@ Key observations:
 **Test set**: 98 text-only physics problems from * Physics by Example * by W. G. Rees.
 Pass@1 evaluation uses temperature=0.6, top_p=0.95, max_tokens=16384.
 
-| Model | Accuracy |
+| Model | Pass@1 |
 |-------|----------------------------|
 | **R1-Zero** | **~68%** |
 | Baseline (Qwen3-235B-A22B-Instruct-2507) | ~57% |
