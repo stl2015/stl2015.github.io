@@ -8,7 +8,7 @@ R1-Zero applies reinforcement learning **directly** to a pre-trained LLM via RL.
 | **Base model** | `Qwen/Qwen3-235B-A22B-Instruct-2507` |
 | **Method** | PPO with LoRA (rank 32), no prior SFT |
 | **Training data** | ~450 college physics problems (text-only) |
-| **Test data** | 98 problems from * Physics by Example * by W. G. Rees |
+| **Test data** | 98 problems (text-only) from * Physics by Example * by W. G. Rees |
 
 ---
 
@@ -28,12 +28,12 @@ Key observations:
 
 ### Evaluation Results
 
-**Test set**: 98 text-only physics problems from * Physics by Example * by W. G. Rees.
+**Pass@1 Test set**: 98 text-only physics problems from * Physics by Example * by W. G. Rees.
 Evaluation uses temperature=0.6, top_p=0.95, max_tokens=16384.
 
 | Model | Accuracy |
 |-------|----------------------------|
-| **R1-Zero (ckpt 20)** | **~68%** |
+| **R1-Zero** | **~68%** |
 | Baseline (Qwen3-235B-A22B-Instruct-2507) | ~57% |
 
 R1-Zero improves over the baseline by **+11pp** in score.
