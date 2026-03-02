@@ -28,8 +28,8 @@ Key observations:
 
 ### Evaluation Results
 
-**Pass@1 Test set**: 98 text-only physics problems from * Physics by Example * by W. G. Rees.
-Evaluation uses temperature=0.6, top_p=0.95, max_tokens=16384.
+**Test set**: 98 text-only physics problems from * Physics by Example * by W. G. Rees.
+Pass@1 evaluation uses temperature=0.6, top_p=0.95, max_tokens=16384.
 
 | Model | Accuracy |
 |-------|----------------------------|
