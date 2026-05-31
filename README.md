@@ -35,3 +35,6 @@ Pass@1 evaluation uses temperature=0.6, top_p=0.95, max_tokens=16384.
 | Baseline (Qwen3-235B-A22B-Instruct-2507) | ~57% |
 
 R1-Zero improves over the baseline by **+11pp** in score.
+
+
+![AI for Physics](/physics.md)
