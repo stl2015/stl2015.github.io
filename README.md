@@ -28,4 +28,4 @@ Here is a list of my [publications](https://scholar.google.com/citations?user=yr
 Indiana University
 
 * PostDoc.
-Los Alamos National Lab / UW Washington. 
+Los Alamos National Lab / University of Washington. 
