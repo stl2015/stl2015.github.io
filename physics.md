@@ -16,7 +16,7 @@ R1-Zero applies reinforcement learning **directly** to a pre-trained LLM via RL.
 
 #### R1-Zero: Reward, and Correct Fraction
 
-![R1-Zero training curves](/plots/r1zero_training.png)
+![R1-Zero training curves](/artifacts/r1zero_training.png)
 
 Key observations:
 - Reward and correct fraction **increase steadily** through training, with high per-batch variance due to varying problem difficulty.
