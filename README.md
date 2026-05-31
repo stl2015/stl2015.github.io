@@ -21,10 +21,11 @@ YiMusic as a silent friend to communicate and appreciate music. Here is a [demo]
 
 ## Edudation
 
+I'm trained as a physicist. My PhD Dissertation was awarded by American Physical Society in [2013](https://www.aps.org/funding-recognition/winners?t=Dissertation%20Award%20in%20Nuclear%20Physics&af=false).
 Here is a list of my [publications](https://scholar.google.com/citations?user=yrp2QCsAAAAJ&hl=en).
 
 * PhD.
-I'm trained as physicist at Indiana University. My PhD Dissertation was awarded by American Physical Society in [2013](https://www.aps.org/funding-recognition/winners?t=Dissertation%20Award%20in%20Nuclear%20Physics&af=false).
+Indiana University
 
 * PostDoc.
 Los Alamos National Lab / UW Washington. 
