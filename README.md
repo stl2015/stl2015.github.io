@@ -24,8 +24,8 @@ Foundation model is powerful in understanding and reasoning in "general" knowled
 
 Here is a list of my [publications](https://scholar.google.com/citations?user=yrp2QCsAAAAJ&hl=en).
 
-* PhD
+* PhD.
 I'm trained as physicist at Indiana University. My PhD Dissertation was awarded by American Physical Society in [2013](https://www.aps.org/funding-recognition/winners?t=Dissertation%20Award%20in%20Nuclear%20Physics&af=false).
 
-* PostDoc
+* PostDoc.
 Los Alamos National Lab / UW Washington. 
