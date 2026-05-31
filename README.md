@@ -16,7 +16,7 @@ Foundation model is powerful in understanding and reasoning in "general" knowled
 ## AI for Music Understanding
 
 Classic music is a gem in human's creativity and shows that humankind is an interesting part of universe.
-YiMusic as a silent friend to communicate and appreciate music. Here is a [demo](/yimusic.md).
+YiMusic as a silent friend to communicate and appreciate music. Here is a [demo](/yimusic.md) for the app.
 
 
 ## Edudation
