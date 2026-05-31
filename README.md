@@ -10,7 +10,7 @@
 Classic music is a gem in human's creativity and shows that humankind is an interesting part of universe.
 YiMusic as a silent friend to communicate and appreciate music. Here is a [demo](/artifacts/yimusic.mp4).
 
-<video src="./artifacts/yimusic.mp4" controls="controls" muted="muted" width="100%"></video>
+<audio src="./artifacts/yimusic.mp4" controls="controls" muted="muted" width="100%"></audio>
 
 ## AI for Science
 
