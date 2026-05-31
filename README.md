@@ -1,37 +1,31 @@
-# RL-based Physics Reasoning
-## College Physics: R1-Zero-Qwen3-235B
+# Gang Shen
+## Experience
 
-R1-Zero applies reinforcement learning **directly** to a pre-trained LLM via RL. The model learns to solve university-level physics problems through trial-and-error with a correctness reward signal.
+* Machine Learning Engineering, Meta Platforms, 2020 - 
+  * Build Reinforcement Learning (RL) based post-training framework for Recommendation System (RecSys)
 
-| | |
-|---|---|
-| **Base model** | `Qwen/Qwen3-235B-A22B-Instruct-2507` |
-| **Method** | PPO with LoRA (rank 32), no prior SFT |
-| **Training data** | ~450 college physics problems (text-only) |
-| **Test data** | 98 problems (text-only) from * Physics by Example * by W. G. Rees |
+* Quantitative Researcher, JPMorgan/DTCC/Citi, 2014 - 2020
+  * Statistical modeling of financial products, including credit derivative, mortgage, etc
 
----
 
-### Training Curves
+## AI for Music Understanding
 
-#### R1-Zero: Reward, and Correct Fraction
+Classic music is a gem in human's creativity and shows that humankind is an interesting part of universe.
+YiMusic as a silent friend to communicate and appreciate music. Here is a [demo](/artifacts/yimusic.mp4).
 
-![R1-Zero training curves](/plots/r1zero_training.png)
+<audio src="./artifacts/yimusic.mp4" controls="controls" muted="muted" width="100%"></audio>
 
-Key observations:
-- Reward and correct fraction **increase steadily** through training, with high per-batch variance due to varying problem difficulty.
-- Format compliance reaches ~100% within a few steps -- the format bonus is effective.
+## AI for Science
 
----
+Foundation model is powerful in understanding and reasoning in "general" knowledge. It is beneficial to post-train the foundation model to become domain expert, especially in area where verifiable outcome could be abtained. Here is one [example](/physics.md) I did for post-training a model by reinforcement learning to better reason in physics.
 
-### Evaluation Results
 
-**Test set**: 98 text-only physics problems from * Physics by Example * by W. G. Rees.
-Pass@1 evaluation uses temperature=0.6, top_p=0.95, max_tokens=16384.
+## Edudation
 
-| Model | Pass@1 |
-|-------|----------------------------|
-| **R1-Zero** | **~68%** |
-| Baseline (Qwen3-235B-A22B-Instruct-2507) | ~57% |
+Here is a list of my [publications](https://scholar.google.com/citations?user=yrp2QCsAAAAJ&hl=en).
 
-R1-Zero improves over the baseline by **+11pp** in score.
+* PhD.
+I'm trained as physicist at Indiana University. My PhD Dissertation was awarded by American Physical Society in [2013](https://www.aps.org/funding-recognition/winners?t=Dissertation%20Award%20in%20Nuclear%20Physics&af=false).
+
+* PostDoc.
+Los Alamos National Lab / UW Washington. 

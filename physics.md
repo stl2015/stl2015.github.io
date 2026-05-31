@@ -1,0 +1,37 @@
+# RL-based Physics Reasoning
+## College Physics: R1-Zero-Qwen3-235B
+
+R1-Zero applies reinforcement learning **directly** to a pre-trained LLM via RL. The model learns to solve university-level physics problems through trial-and-error with a correctness reward signal.
+
+| | |
+|---|---|
+| **Base model** | `Qwen/Qwen3-235B-A22B-Instruct-2507` |
+| **Method** | PPO with LoRA (rank 32), no prior SFT |
+| **Training data** | ~450 college physics problems (text-only) |
+| **Test data** | 98 problems (text-only) from * Physics by Example * by W. G. Rees |
+
+---
+
+### Training Curves
+
+#### R1-Zero: Reward, and Correct Fraction
+
+![R1-Zero training curves](/artifacts/r1zero_training.png)
+
+Key observations:
+- Reward and correct fraction **increase steadily** through training, with high per-batch variance due to varying problem difficulty.
+- Format compliance reaches ~100% within a few steps -- the format bonus is effective.
+
+---
+
+### Evaluation Results
+
+**Test set**: 98 text-only physics problems from * Physics by Example * by W. G. Rees.
+Pass@1 evaluation uses temperature=0.6, top_p=0.95, max_tokens=16384.
+
+| Model | Pass@1 |
+|-------|----------------------------|
+| **R1-Zero** | **~68%** |
+| Baseline (Qwen3-235B-A22B-Instruct-2507) | ~57% |
+
+R1-Zero improves over the baseline by **+11pp** in score.
