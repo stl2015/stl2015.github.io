@@ -1,8 +1,11 @@
 # Gang Shen
 ## Experience
 
-* Machine Learning Engineering, Meta Platforms
+* Machine Learning Engineering, Meta Platforms, 2020 - 
   * Build Reinforcement Learning (RL) based post-training framework for Recommendation System (RecSys)
+
+* Quantitative Researcher, JPMorgan/DTCC/Citi, 2014 - 2020
+  * Statistical modeling of financial products, including credit derivative, mortgage, etc
 
 
 ## AI for Music Understanding
@@ -17,7 +20,12 @@ YiMusic as a silent friend to communicate and appreciate music. Here is a [demo]
 Foundation model is powerful in understanding and reasoning in "general" knowledge. It is beneficial to post-train the foundation model to become domain expert, especially in area where verifiable outcome could be abtained. Here is one [example](/physics.md) I did for post-training a model by reinforcement learning to better reason in physics.
 
 
-## Edudation Background
+## Edudation
 
-I'm trained as physicist. My PhD Dissertation was awarded by American Physical Society in [2013](https://www.aps.org/funding-recognition/winners?t=Dissertation%20Award%20in%20Nuclear%20Physics&af=false).
 Here is a list of my [publications](https://scholar.google.com/citations?user=yrp2QCsAAAAJ&hl=en).
+
+* PhD
+I'm trained as physicist at Indiana University. My PhD Dissertation was awarded by American Physical Society in [2013](https://www.aps.org/funding-recognition/winners?t=Dissertation%20Award%20in%20Nuclear%20Physics&af=false).
+
+* PostDoc
+Los Alamos National Lab / UW Washington. 
