@@ -37,6 +37,6 @@ Pass@1 evaluation uses temperature=0.6, top_p=0.95, max_tokens=16384.
 R1-Zero improves over the baseline by **+11pp** in score.
 
 
-## AI for Physics(/physics.md)
+## [AI for Physics](/physics.md)
 
 Foundation model is powerful in understanding and reasoning in "general" knowledge. It is beneficial to post-train the foundation model to become domain expert, especially in area where verifiable outcome could be abtained. Here is one example I did for post-training a model to better reason in physics.
