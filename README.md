@@ -1,7 +1,7 @@
 # Gang Shen
 ## Experience
 
-* Machine Learning Engineering, ***Meta Platforms***, 2020 - 
+* Machine Learning Engineer Lead, ***Meta Platforms***, 2020 - 
   * Build Reinforcement Learning (RL) based post-training framework for Recommendation System (RecSys)
 
 * Quantitative Researcher, ***JPMorgan/DTCC/Citi***, 2014 - 2020
