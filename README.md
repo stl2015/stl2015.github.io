@@ -2,13 +2,14 @@
 ## Experience
 
 * Machine Learning Engineering, Meta Platforms
-* * Build Reinforcement Learning (RL) based post-training framework for Recommendation System (RecSys)
+  * Build Reinforcement Learning (RL) based post-training framework for Recommendation System (RecSys)
 
 
 ## AI for Music Understanding
 
 Classic music is a gem in human's creativity and shows that humankind is an interesting part of universe.
 YiMusic as a silent friend to communicate and appreciate music. Here is a [demo](/artifacts/yimusic.mp4).
+
 <video src="./artifacts/yimusic.mp4" controls="controls" muted="muted" width="100%"></video>
 
 ## AI for Science
