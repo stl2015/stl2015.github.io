@@ -19,7 +19,7 @@ Classic music is a gem in human's creativity and shows that humankind is an inte
 YiMusic as a silent friend to communicate and appreciate music. Here is a [demo](/yimusic.md) for the app.
 
 
-## Edudation
+## Education
 
 I'm trained as a physicist. My PhD Dissertation was awarded by American Physical Society in [2013](https://www.aps.org/funding-recognition/winners?t=Dissertation%20Award%20in%20Nuclear%20Physics&af=false).
 Here is a list of my [publications](https://scholar.google.com/citations?user=yrp2QCsAAAAJ&hl=en).
