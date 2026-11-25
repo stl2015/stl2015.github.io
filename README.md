@@ -2,6 +2,7 @@
 ## Experience
 
 * Engineer Lead in Machine Learning, ***Meta Platforms***, 2020 - 
+  * Build Self-Improving Agentic System for Auto-ML
   * Build Reinforcement Learning (RL) based post-training framework for Recommendation System (RecSys)
 
 * Quantitative Researcher, ***JPMorgan/DTCC/Citi***, 2014 - 2020
